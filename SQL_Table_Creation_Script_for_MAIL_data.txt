@@ -1,0 +1,84 @@
+USE [H_Plant]
+GO
+
+/****** Object:  Table [dbo].[Dept_X]    Script Date: 07-03-2025 09:18:50 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Dept_X](
+	[Unit] [nvarchar](4) NULL,
+	[Dept_X_Field1_Actual_Value] [numeric](4, 2) NULL,
+	[Dept_X_Field2_Actual_Value] [numeric](4, 2) NULL,
+	[Dept_X_Field1_Target_Value] [numeric](4, 2) NULL,
+	[Dept_X_Field2_Target_Value] [numeric](4, 2) NULL,
+	[Dept_X_Field3_Actual_Value] [numeric](4, 2) NULL,
+	[Dept_X_Field4_Actual_Value] [numeric](4, 2) NULL,
+	[Dept_X_Field3_Target_Value] [numeric](4, 2) NULL,
+	[Dept_X_Field4_Target_Value] [numeric](4, 2) NULL,
+	[Dept_X_Field5_Actual_Value] [numeric](4, 2) NULL,
+	[Dept_X_Field6_Actual_Value] [numeric](4, 2) NULL,
+	[Dept_X_Field5_Target_Value] [numeric](4, 2) NULL,
+	[Dept_X_Field6_Target_Value] [numeric](4, 2) NULL,
+	[Dept_X_Field7_Actual_Value] [numeric](4, 2) NULL,
+	[Dept_X_Field8_Actual_Value] [numeric](4, 2) NULL,
+	[Dept_X_Field7_Target_Value] [numeric](4, 2) NULL,
+	[Dept_X_Field8_Target_Value] [numeric](4, 2) NULL,
+	[Dept_X_Field9_Actual_Value] [numeric](4, 2) NULL,
+	[Dept_X_Field10_Actual_Value] [numeric](4, 2) NULL,
+	[Dept_X_Field9_Target_Value] [numeric](4, 2) NULL,
+	[Dept_X_Field10_Target_Value] [numeric](4, 2) NULL,
+	[Dept_X_Field11_Actual_Value] [numeric](4, 2) NULL,
+	[Dept_X_Field12_Target_Value] [numeric](4, 2) NULL,
+	[Dept_X_Field11_Target_Value] [numeric](4, 2) NULL,
+	[Dept_X_Field12_Actual_Value] [numeric](4, 2) NULL,
+	[Timestamp] [smalldatetime] NULL,
+	[Shift] [nvarchar](1) NULL
+) ON [PRIMARY]
+GO
+
+
+USE [H_Plant]
+GO
+
+/****** Object:  Table [dbo].[Dept_Y]    Script Date: 07-03-2025 09:19:05 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Dept_Y](
+	[Unit] [nvarchar](4) NULL,
+	[Dept_Y_Field1_Actual_Value] [numeric](4, 2) NULL,
+	[Dept_Y_Field2_Actual_Value] [numeric](4, 2) NULL,
+	[Dept_Y_Field1_Target_Value] [numeric](4, 2) NULL,
+	[Dept_Y_Field2_Target_Value] [numeric](4, 2) NULL,
+	[Dept_Y_Field3_Actual_Value] [numeric](4, 2) NULL,
+	[Dept_Y_Field4_Actual_Value] [numeric](4, 2) NULL,
+	[Dept_Y_Field3_Target_Value] [numeric](4, 2) NULL,
+	[Dept_Y_Field4_Target_Value] [numeric](4, 2) NULL,
+	[Dept_Y_Field5_Actual_Value] [numeric](4, 2) NULL,
+	[Dept_Y_Field6_Actual_Value] [numeric](4, 2) NULL,
+	[Dept_Y_Field5_Target_Value] [numeric](4, 2) NULL,
+	[Dept_Y_Field6_Target_Value] [numeric](4, 2) NULL,
+	[Dept_Y_Field7_Actual_Value] [numeric](4, 2) NULL,
+	[Dept_Y_Field8_Actual_Value] [numeric](4, 2) NULL,
+	[Dept_Y_Field7_Target_Value] [numeric](4, 2) NULL,
+	[Dept_Y_Field8_Target_Value] [numeric](4, 2) NULL,
+	[Dept_Y_Field9_Actual_Value] [numeric](4, 2) NULL,
+	[Dept_Y_Field10_Actual_Value] [numeric](4, 2) NULL,
+	[Dept_Y_Field9_Target_Value] [numeric](4, 2) NULL,
+	[Dept_Y_Field10_Target_Value] [numeric](4, 2) NULL,
+	[Dept_Y_Field11_Actual_Value] [numeric](4, 2) NULL,
+	[Dept_Y_Field12_Target_Value] [numeric](4, 2) NULL,
+	[Dept_Y_Field11_Target_Value] [numeric](4, 2) NULL,
+	[Dept_Y_Field12_Actual_Value] [numeric](4, 2) NULL,
+	[Timestamp] [smalldatetime] NULL,
+	[Shift] [nvarchar](1) NULL
+) ON [PRIMARY]
+GO
+
+
